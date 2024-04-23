@@ -1,0 +1,61 @@
+.about {
+  margin: 50px 0;
+
+  .aboutContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 599px;
+
+    border: 1px solid #cecdd2;
+    border-radius: 8px;
+
+    .aboutButtons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      height: 599px;
+      overflow-y: scroll;
+
+      scrollbar-width: none; /* Убираем стандартную стрелку прокрутки */
+
+      &::-webkit-scrollbar {
+        display: none; /* Для браузеров на основе WebKit (Chrome, Safari) */
+      }
+
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        padding: 10px 30px;
+
+        border: none;
+        border-radius: 32px;
+
+        color: #6944cb;
+        background-color: #6944cb17;
+
+        font-size: 24px;
+        font-weight: 400;
+        font-family: "Inter", sans-serif;
+
+        width: 424px;
+        min-height: 55px;
+      }
+    }
+
+    .aboutText {
+      width: 456px;
+      height: 228px;
+      text-align: justify;
+
+      h5 {
+        font-weight: 400;
+      }
+    }
+  }
+}

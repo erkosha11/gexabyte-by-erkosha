@@ -1,0 +1,50 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 387px;
+
+  background-color: #020210;
+  color: white;
+
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .footerNav {
+      ul {
+        display: flex;
+        gap: 34px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          cursor: pointer;
+          h5 {
+            font-weight: normal;
+          }
+        }
+      }
+    }
+
+    .footerSocial {
+      display: flex;
+      gap: 30px;
+
+      cursor: pointer;
+    }
+
+    .footerRulesText {
+      h5 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+
+        color: #ffffff8f;
+      }
+    }
+  }
+}

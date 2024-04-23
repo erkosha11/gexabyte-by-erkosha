@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  align-items: center;
+
+  height: 85px;
+
+  border-bottom: 1px solid #cecdd2;
+
+  .headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .headerNav {
+      ul {
+        display: flex;
+        gap: 34px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+
+          cursor: pointer;
+          h5 {
+            font-weight: normal;
+          }
+        }
+      }
+    }
+
+    .languageSelector {
+      font-size: 16px;
+      font-family: "Disket Mono";
+      select {
+        width: 110px;
+        height: 34px;
+
+        border: 1px solid #e7e8ea;
+        border-radius: 8px;
+        appearance: none;
+
+        cursor: pointer;
+      }
+    }
+  }
+}

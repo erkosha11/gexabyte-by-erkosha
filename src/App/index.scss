@@ -1,0 +1,55 @@
+@import url("./styles/_normalize.scss");
+
+@font-face {
+  font-family: "Disket Mono";
+  src: local("Disket Mono Regular"), local("DisketMono-Regular"),
+    url("../assets/font/Disket-Mono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Disket Mono";
+  src: local("Disket Mono Bold"), local("DisketMono-Bold"),
+    url("../assets/font/Disket-Mono-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: initial;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+
+  font-family: "Disket Mono";
+
+  .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 62px;
+    }
+
+    h2 {
+      font-size: 48px;
+    }
+
+    h3 {
+      font-size: 34px;
+    }
+
+    h4 {
+      font-size: 26px;
+    }
+
+    h5 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+}
