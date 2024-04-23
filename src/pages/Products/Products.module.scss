@@ -4,8 +4,11 @@
   .productsContent {
     display: flex;
 
+    height: 1498px;
+
     .productsTitle {
       width: 650px;
+      height: 108px;
     }
 
     .productsCards {
@@ -14,18 +17,15 @@
       gap: 40px;
 
       width: 1280px;
+      height: 1320px;
 
       .productsCard {
         display: flex;
         flex-direction: column;
-
         padding: 30px;
-
         border-radius: 20px;
-
         width: 550px;
         height: 600px;
-
         border: 1px solid #eaebef;
         background-color: #f7f8fa;
 
@@ -35,11 +35,11 @@
           border-radius: 23px;
           background-color: #f0b270;
           margin: 30px 0;
-        }
 
-        .productsCardPurple {
-          background-color: #6944cb;
-          color: #fff;
+          &.productsCardPurple {
+            background-color: #6944cb;
+            color: #fff;
+          }
         }
 
         .productsCardText {
@@ -49,10 +49,12 @@
 
           span {
             display: block;
-
             width: 100%;
+            border-bottom: 1px solid #000000;
 
-            border-bottom: 1px solid #cecdd2;
+            &:last-child {
+              border: none;
+            }
           }
         }
       }
