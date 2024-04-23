@@ -1,3 +1,12 @@
+@keyframes slide {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .about {
   margin: 50px 0;
 
@@ -5,46 +14,38 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     height: 599px;
-
     border: 1px solid #cecdd2;
     border-radius: 8px;
 
-    .aboutButtons {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
+    .aboutCards {
+      height: 100%; // Высота должна быть 100%
+      overflow: hidden;
 
-      height: 599px;
-      overflow-y: scroll;
-
-      scrollbar-width: none;
-
-      &::-webkit-scrollbar {
-        display: none;
-      }
-
-      span {
+      .aboutCardsWrapper {
         display: flex;
-        align-items: center;
-        justify-content: flex-start;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        animation: slide 30s linear infinite; // Анимация должна быть циклической
 
-        padding: 10px 30px;
+        .item {
+          padding: 10px 30px;
+          border-radius: 32px;
+          color: #6944cb;
+          background-color: #6944cb17;
+          width: 424px;
+          height: 55px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
 
-        border: none;
-        border-radius: 32px;
-
-        color: #6944cb;
-        background-color: #6944cb17;
-
-        font-size: 24px;
-        font-weight: 400;
-        font-family: "Inter", sans-serif;
-
-        width: 424px;
-        min-height: 55px;
+          p {
+            font-size: 24px;
+            font-weight: 400;
+            font-family: "Inter", sans-serif;
+          }
+        }
       }
     }
 
