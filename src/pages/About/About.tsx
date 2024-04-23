@@ -1,20 +1,13 @@
+import React from "react";
 import s from "./About.module.scss";
+import AboutCards from "./components/AboutCards";
 
 export const About = () => {
   return (
     <div className={s.about}>
       <div className="container">
         <div className={s.aboutContent}>
-          <div className={s.aboutButtons}>
-            <span>Маркетплейсы</span>
-            <span>Образовательные платформы</span>
-            <span>Криптовалютные биржи</span>
-            <span>Финтех продукты</span>
-            <span>Финтех продукты</span>
-            <span>CRM системы</span>
-            <span>Launchpad платформы</span>
-            <span>NFT-маркетплейсы</span>
-          </div>
+          <AboutCards />
           <div className={s.aboutText}>
             <h2>Gexabyte</h2>
             <h5>
