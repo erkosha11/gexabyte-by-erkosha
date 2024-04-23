@@ -1,46 +1,40 @@
-.sixthLine {
+.secondLine {
   display: flex;
   gap: 20px;
-  
-  .decentralizedWallet {
-    background-image: url("../img/GroupSixthLine2.png");
+
+  .bloxxa {
+    background-image: url("../imgWeb3/GroupSecondLine1.png");
+
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no-repeat;
+    width: 629px;
+    height: 574px;
+
+    position: relative;
+  }
+
+  .tokenize {
+    background-image: url("../imgWeb3/GroupSecondLine2.png");
 
     background-size: cover;
     background-position: center;
 
     background-repeat: no-repeat;
 
-    width: 837px;
-    height: 573px;
+    width: 629px;
+    height: 574px;
+
+    border-radius: 10px;
   }
-
-  .socialNetwork {
-    background-image: url( "../img/GroupSixthLine1.png");
-
-    background-size: cover;
-    background-position: center;
-
-    background-repeat: no-repeat;
-
-    width: 419px;
-    height: 573px;
-  }
-  
   .text {
+    width: 90%;
+    height: 90%;
     display: flex;
     justify-content: space-between;
     padding: 20px;
     flex-direction: column;
-    width: 90%;
-    height: 90%;
-  }
-  .title {
-    font-family: Disket Mono;
-    font-size: 34px;
-    font-weight: 700;
-    line-height: 38.32px;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
   }
   .link {
     font-family: Disket Mono;
@@ -48,6 +42,7 @@
     font-weight: 700;
     line-height: 28px;
     text-align: left;
+
     color: rgba(255, 255, 255, 1);
     margin: 0;
   }
@@ -57,6 +52,15 @@
     font-weight: 400;
     line-height: 19.6px;
     text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  .title {
+    font-family: Disket Mono;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 38.32px;
+    text-align: left;
+
     color: rgba(255, 255, 255, 1);
   }
 }

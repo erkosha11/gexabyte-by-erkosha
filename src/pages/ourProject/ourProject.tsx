@@ -1,12 +1,12 @@
-import EighthLine from "./eighthLine/eighthLine";
-import FifthLine from "./fifthLine/fifthLine";
-import { FirstLine } from "./firstLine/firstLine";
-import FourthLine from "./fourthLine/fourthLine";
+import EighthLine from "./ourProjectWeb3/eighthLine/eighthLine";
+import FifthLine from "./ourProjectWeb3/fifthLine/fifthLine";
+import { FirstLine } from "./ourProjectWeb3/firstLine/firstLine";
+import FourthLine from "./ourProjectWeb3/fourthLine/fourthLine";
 import s from "./ourProject.module.scss";
-import SecondLine from "./secondLine/secondLine";
-import SeventhLine from "./seventhLine/seventhLine";
-import SixthLine from "./sixthLine/sixthLine";
-import ThirdLine from "./thirdLine/thirdLine";
+import SecondLine from "./ourProjectWeb3/secondLine/secondLine";
+import SeventhLine from "./ourProjectWeb3/seventhLine/seventhLine";
+import SixthLine from "./ourProjectWeb3/sixthLine/sixthLine";
+import ThirdLine from "./ourProjectWeb3/thirdLine/thirdLine";
 export default function OurProject() {
   return (
     <div className={s.ourProject}>
