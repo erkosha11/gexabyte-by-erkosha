@@ -52,4 +52,35 @@ html {
       font-size: 20px;
     }
   }
+
+  @media screen and (max-width: 376px) {
+    .container {
+      max-width: 325px;
+
+
+      h1 {
+        font-size: 28px;
+      }
+  
+      h2 {
+        font-size: 28px;
+      }
+  
+      h3 {
+        font-size: 34px;
+      }
+  
+      h4 {
+        font-size: 26px;
+      }
+  
+      h5 {
+        font-size: 14px;
+      }
+  
+      p {
+        font-size: 14px;
+      }
+    }
+  }
 }

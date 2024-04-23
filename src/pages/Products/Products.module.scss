@@ -61,3 +61,49 @@
     }
   }
 }
+
+@media screen and (max-width: 376px) {
+  .products {
+    .productsContent {
+      height: 1537px;
+
+      .productsTitle {
+        width: 325px;
+        height: 96px;
+      }
+
+      .productsCards {
+        width: 325px;
+        height: 1411px;
+        gap: 20px;
+
+        .productsCard {
+          width: 265px;
+          height: 270px;
+          gap: 20px;
+
+          .productsCardTitle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin: 0;
+            padding: 0;
+
+            height: 73px;
+            width: 278px;
+
+            h4 {
+              font-size: 16px;
+            }
+          }
+          .productsCardText {
+            p {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

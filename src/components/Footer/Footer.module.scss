@@ -33,6 +33,7 @@
 
     .footerSocial {
       display: flex;
+      align-items: center;
       gap: 30px;
 
       cursor: pointer;
@@ -44,6 +45,37 @@
         font-weight: 400;
 
         color: #ffffff8f;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .footer {
+    height: 679px;
+
+    .footerContent {
+
+      justify-content: space-between;
+      height: 550px;
+
+      .footerLogo {
+        width: 103px;
+        height: 80px;
+      }
+      .footerNav {
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+
+          li {
+            text-align: center;
+            h5 {
+              margin: 0;
+            }
+          }
+        }
       }
     }
   }
