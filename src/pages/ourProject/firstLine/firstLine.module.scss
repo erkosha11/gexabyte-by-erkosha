@@ -1,0 +1,85 @@
+.FirstLine {
+  display: flex;
+  gap: 20px;
+  .fobKz {
+    background-image: url("../img/GroupFirstLine2.png");
+
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    width: 837px;
+    height: 573px;
+
+    position: relative;
+
+    .text {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      flex-direction: column;
+      width: 90%;
+      height: 90%;
+
+      .headerText {
+        .titleFPB {
+          font-family: Disket Mono;
+          font-size: 34px;
+          font-weight: 700;
+          line-height: 38.32px;
+          text-align: left;
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+    }
+  }
+
+  .uwboOrg {
+    background-image: url("../img/GroupFirstLine1.png");
+
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    width: 419px;
+    height: 573px;
+    .text {
+      width: 90%;
+      height: 90%;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      flex-direction: column;
+      .headerText {
+        .titleDAO {
+          font-family: Disket Mono;
+          font-size: 29px;
+          font-weight: 700;
+          line-height: 32.68px;
+          text-align: left;
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+    }
+  }
+
+  .link {
+    font-family: Disket Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+  }
+  .subtitle {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+}
