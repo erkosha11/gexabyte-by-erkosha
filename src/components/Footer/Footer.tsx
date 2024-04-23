@@ -10,7 +10,7 @@ export const Footer = () => {
     <div className={s.footer}>
       <div className="container">
         <div className={s.footerContent}>
-          <img src={Logo} alt="logo" />
+          <img className={s.footerLogo} src={Logo} alt="logo" />
           <div className={s.footerNav}>
             <ul>
               <li>

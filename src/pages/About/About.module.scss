@@ -19,7 +19,7 @@
     border-radius: 8px;
 
     .aboutCards {
-      height: 100%; // Высота должна быть 100%
+      height: 100%;
       overflow: hidden;
 
       .aboutCardsWrapper {
@@ -27,7 +27,7 @@
         flex-direction: column;
         gap: 20px;
         margin-top: 20px;
-        animation: slide 30s linear infinite; // Анимация должна быть циклической
+        animation: slide 30s linear infinite;
 
         .item {
           padding: 10px 30px;
@@ -56,6 +56,72 @@
 
       h5 {
         font-weight: 400;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 376px) {
+  @keyframes slide {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .about {
+    border: 1px solid #cecdd2;
+    .aboutContent {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+
+      border: none;
+
+      width: 100%;
+      height: 438px;
+
+      .aboutText {
+        width: 325px;
+        height: 238px;
+
+        text-align: center;
+      }
+
+      .aboutCards {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+        width: 375px;
+        height: 60px;
+
+        margin-bottom: 50px;
+
+        overflow: hidden;
+
+        .aboutCardsWrapper {
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+          margin-left: 10px;
+          margin-top: 0;
+
+          animation: slide 40s linear infinite;
+
+          .item {
+            padding: 10px 20px;
+
+            width: 280px;
+            height: 40px;
+
+            p {
+              font-size: 18px;
+            }
+          }
+        }
       }
     }
   }

@@ -3,7 +3,7 @@
   align-items: center;
   gap: 8px;
 
-  padding: 16px 10px;
+  padding: 10px 16px;
   background-color: #6944cb;
   color: white;
 
@@ -11,4 +11,11 @@
 
   border: none;
   border-radius: 8px;
+}
+
+@media screen and (max-width: 376px) {
+
+  .buttonAll{
+    padding: 12px 6px;
+  }
 }

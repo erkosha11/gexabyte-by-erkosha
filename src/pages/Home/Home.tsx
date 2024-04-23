@@ -19,11 +19,11 @@ export const Home = () => {
                 Оптимизируйте свой бизнес с использованием передовых технологий
               </p>
               <Button>
-                Начать сотрудничество <img src={Arrow} alt="arrow" />
+                <h4>Начать сотрудничество</h4> <img src={Arrow} alt="arrow" />
               </Button>
             </div>
           </div>
-          <img src={HomeImg} alt="home" />
+          <img className={s.homeImg} src={HomeImg} alt="home" />
         </div>
       </div>
     </div>
