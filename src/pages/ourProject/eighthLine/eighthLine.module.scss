@@ -1,0 +1,53 @@
+.sixthLine {
+  display: flex;
+  gap: 20px;
+
+  .tokenomicsForGame {
+    background-image: url("../img/GroupEighthLine1.png");
+
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    width: 419px;
+    height: 573px;
+  }
+  .tokenomicsbBitcoinNetworkHashrate {
+    background-image: url("../img/GroupEighthLine2.png");
+
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    width: 837px;
+    height: 573px;
+  }
+
+  .text {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+  }
+  .title {
+    font-family: Disket Mono;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 38.32px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  .link {
+    font-family: Disket Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+  }
+}
