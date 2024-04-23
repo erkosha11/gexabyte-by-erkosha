@@ -1,44 +1,32 @@
-.thirdLine {
+.fourthLine {
   display: flex;
   gap: 20px;
-
-  .astanaHub {
-    background-image: url("../img/GroupThirdLine1.png");
-
-    background-size: cover;
-    background-position: center;
-
-    background-repeat: no-repeat;
-    width: 413px;
-    height: 574px;
-  }
-
-  .euphoriaGames {
-    background-image: url("../img/GroupThirdLine2.png");
+  .infrastructureForBlockchainProjects {
+    background-image: url("../imgWeb3/GroupFourthLine1.png");
 
     background-size: cover;
     background-position: center;
 
     background-repeat: no-repeat;
-
-    width: 413px;
+    width: 629px;
     height: 574px;
-    border-radius: 10px;
-  }
 
-  .uSTAKING {
-    background-image: url("../img/GroupThirdLine3.png");
+ 
+  }
+  .decentralizedCloudStorageAggregator {
+    background-image: url("../imgWeb3/GroupFourthLine2.png");
 
     background-size: cover;
     background-position: center;
 
     background-repeat: no-repeat;
 
-    width: 413px;
+    width: 629px;
     height: 574px;
-    border-radius: 10px;
-  }
 
+
+  }
+  
   .text {
     width: 90%;
     height: 90%;
@@ -47,25 +35,14 @@
     padding: 20px;
     flex-direction: column;
   }
-
   .link {
     font-family: Disket Mono;
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
     text-align: left;
-
     color: rgba(255, 255, 255, 1);
     margin: 0;
-  }
-
-  .subtitle {
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19.6px;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
   }
 
   .title {
