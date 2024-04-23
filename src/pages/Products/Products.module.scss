@@ -1,0 +1,61 @@
+.products {
+  margin: 50px 0;
+
+  .productsContent {
+    display: flex;
+
+    .productsTitle {
+      width: 650px;
+    }
+
+    .productsCards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+
+      width: 1280px;
+
+      .productsCard {
+        display: flex;
+        flex-direction: column;
+
+        padding: 30px;
+
+        border-radius: 20px;
+
+        width: 550px;
+        height: 600px;
+
+        border: 1px solid #eaebef;
+        background-color: #f7f8fa;
+
+        .productsCardTitle {
+          text-align: center;
+          padding: 19px 55px;
+          border-radius: 23px;
+          background-color: #f0b270;
+          margin: 30px 0;
+        }
+
+        .productsCardPurple {
+          background-color: #6944cb;
+          color: #fff;
+        }
+
+        .productsCardText {
+          font-size: 18px;
+          font-weight: 400;
+          font-family: "Inter", sans-serif;
+
+          span {
+            display: block;
+
+            width: 100%;
+
+            border-bottom: 1px solid #cecdd2;
+          }
+        }
+      }
+    }
+  }
+}
