@@ -1,7 +1,7 @@
-import { Button } from "../../shared/ui/Button/Button";
 import HomeImg from "../../assets/img/HomeImg.svg";
 import Arrow from "../../assets/icons/Arrow.svg";
 import s from "./Home.module.scss";
+import { MainButton } from './../../shared/ui/Button/MainButton';
 
 export const Home = () => {
   return (
@@ -18,9 +18,9 @@ export const Home = () => {
               <p>
                 Оптимизируйте свой бизнес с использованием передовых технологий
               </p>
-              <Button>
+              <MainButton>
                 <h4>Начать сотрудничество</h4> <img src={Arrow} alt="arrow" />
-              </Button>
+              </MainButton>
             </div>
           </div>
           <img className={s.homeImg} src={HomeImg} alt="home" />

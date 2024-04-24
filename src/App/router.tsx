@@ -1,6 +1,7 @@
 import { Footer } from "../components/Footer/Footer";
 import { Header } from "../components/Header/Header";
 import { About } from "../pages/About/About";
+import { CreateProjectBlock } from "../pages/createProjectBlock/createProjectBlock";
 import { Home } from "../pages/Home/Home";
 import { Leadership } from "../pages/leadership/leadership";
 import OurProject from "../pages/ourProject/ourProject";
@@ -16,6 +17,7 @@ function App() {
       <Products />
       <OurProject />
       <Leadership/>
+      <CreateProjectBlock/>
       <Footer />
     </>
   );

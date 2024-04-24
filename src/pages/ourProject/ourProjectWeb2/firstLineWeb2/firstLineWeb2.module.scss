@@ -1,42 +1,42 @@
-.seventhLine {
+.FirstLineWeb2 {
   display: flex;
   gap: 20px;
 
-  .NFTMarketplace {
-    background-image: url("../imgWeb3/GroupSeventhLine1.png");
+  .cofiRu {
+    background-image: url("../imgWeb2/GroupWeb2.1.1.png");
 
     background-size: cover;
     background-position: center;
 
     background-repeat: no-repeat;
-    width: 629px;
-    height: 574px;
+
+    width: 837px;
+    height: 573px;
 
     position: relative;
   }
 
-  .crowdfundingPlatform {
-    background-image: url("../imgWeb3/GroupSeventhLine2.png");
+  .grupovina {
+    background-image: url("../imgWeb2/GroupWeb2.1.2.png");
 
     background-size: cover;
     background-position: center;
 
     background-repeat: no-repeat;
 
-    width: 629px;
-    height: 574px;
-
-    border-radius: 10px;
+    width: 419px;
+    height: 573px;
   }
   @import "../../styles/globalWeb.scss";
 }
 
 @media screen and (max-width: 780px) {
-  .seventhLine {
+  .FirstLineWeb2 {
     width: 100%;
     flex-direction: column;
-    .NFTMarketplace,
-    .crowdfundingPlatform {
+
+    .cofiRu,
+    .grupovina {
       width: 100%;
     }
   }
