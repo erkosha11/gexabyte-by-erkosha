@@ -17,7 +17,7 @@
     align-items: center;
     width: 100%;
 
-    img {
+    .headerLogo {
       width: 58px;
       height: 48px;
     }
@@ -68,11 +68,6 @@
     .headerBurgerMenu {
       display: none;
 
-      svg {
-        width: 24px;
-        height: 24px;
-        cursor: pointer;
-      }
     }
   }
 }
@@ -92,7 +87,7 @@
       .headerBurgerMenu {
         display: flex;
 
-        img {
+        .headerBurgerMenuLogo {
           width: 24px;
           height: 24px;
         }

@@ -1,0 +1,21 @@
+.labelImg {
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  font-family: "Disket Mono";
+}
+
+.option img {
+  margin-right: 5px; // настройте отступ между изображением и текстом по вашему усмотрению
+}
+
+/* Дополнительные стили для выпадающего списка */
+.dropdown {
+  // Ваши дополнительные стили здесь
+}

@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 import Logo from "../../assets/icons/Logo.svg";
-
 import BurgerMenuImg from "../../assets/icons/menu-hamburger.svg";
-import BurgerMenu from "./components/BurgerMenuHeader";
+
+import BurgerMenu from "./components/BurgerMenu/BurgerMenuHeader";
+import LanguageSelect from "./components/LanguageSelect/LanguageSelect";
 
 import s from "./Header.module.scss";
-
 
 export const Header = () => {
   const [isMenuActive, setMenuActive] = useState(false);
@@ -19,15 +19,15 @@ export const Header = () => {
     setMenuActive(false);
   };
 
-  const changeLanguage = (lang: string) => {
-    console.log("Выбран язык:", lang);
+  const handleChange = (value: string) => {
+    console.log(`selected ${value}`);
   };
 
   return (
     <div className={s.header}>
       <div className="container">
         <div className={s.headerContent}>
-          <img src={Logo} alt="logo"></img>
+          <img className={s.headerLogo} src={Logo} alt="logo"></img>
           <div className={s.headerNav}>
             <ul>
               <li>
@@ -48,15 +48,15 @@ export const Header = () => {
             </ul>
           </div>
           <div className={s.headerBurgerMenu} onClick={toggleMenu}>
-            <img src={BurgerMenuImg} alt="BurgerMenu" />
+            <img
+              className={s.headerBurgerMenuLogo}
+              src={BurgerMenuImg}
+              alt="BurgerMenu"
+            />
           </div>
           <BurgerMenu isOpen={isMenuActive} onClose={closeMenu} />
           <div className={s.languageSelector}>
-            <select onChange={(e) => changeLanguage(e.target.value)}>
-              <option value="RUS">RUS</option>
-              <option value="KAZ">KAZ</option>
-              <option value="ENG">ENG</option>
-            </select>
+            <LanguageSelect defaultValue="RUS" handleChange={handleChange} />
           </div>
         </div>
       </div>
