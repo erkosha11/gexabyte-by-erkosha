@@ -26,3 +26,14 @@
   }
   @import "../../styles/globalWeb.scss";
 }
+
+@media screen and (max-width: 780px) {
+  .sixthLine {
+    width: 100%;
+    flex-direction: column;
+    .tokenomicsForGame,
+    .tokenomicsbBitcoinNetworkHashrate {
+      width: 100%;
+    }
+  }
+}

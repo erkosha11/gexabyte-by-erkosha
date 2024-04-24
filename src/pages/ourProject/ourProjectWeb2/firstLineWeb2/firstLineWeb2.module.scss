@@ -3,7 +3,7 @@
   gap: 20px;
 
   .cofiRu {
-    background-image: url("../imgWeb2/GroupFirstLineWeb2.1.png");
+    background-image: url("../imgWeb2/GroupWeb2.1.1.png");
 
     background-size: cover;
     background-position: center;
@@ -17,7 +17,7 @@
   }
 
   .grupovina {
-    background-image: url("../imgWeb2/GroupFirstLineWeb2.2.png");
+    background-image: url("../imgWeb2/GroupWeb2.1.2.png");
 
     background-size: cover;
     background-position: center;
@@ -28,4 +28,16 @@
     height: 573px;
   }
   @import "../../styles/globalWeb.scss";
+}
+
+@media screen and (max-width: 780px) {
+  .FirstLineWeb2 {
+    width: 100%;
+    flex-direction: column;
+
+    .cofiRu,
+    .grupovina {
+      width: 100%;
+    }
+  }
 }

@@ -1,0 +1,40 @@
+.secondLineWeb2 {
+  display: flex;
+  gap: 20px;
+
+  .aiBot {
+    background-image: url("../imgWeb2/GroupWeb2.2.1.png");
+
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no-repeat;
+    width: 629px;
+    height: 574px;
+  }
+
+  .vesovayaKz {
+    background-image: url("../imgWeb2/GroupWeb2.2.2.png");
+
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    width: 629px;
+    height: 574px;
+  }
+  @import "../../styles/globalWeb.scss";
+}
+
+@media screen and (max-width: 780px) {
+  .secondLineWeb2 {
+    width: 100%;
+    flex-direction: column;
+
+    .aiBot,
+    .vesovayaKz {
+      width: 100%;
+    }
+  }
+}

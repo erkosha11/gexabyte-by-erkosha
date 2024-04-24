@@ -30,3 +30,14 @@
   }
   @import "../../styles/globalWeb.scss";
 }
+
+@media screen and (max-width: 780px) {
+  .fifthLine {
+    width: 100%;
+    flex-direction: column;
+    .cryptoExchange,
+    .musicPlatform {
+      width: 100%;
+    }
+  }
+}

@@ -24,3 +24,15 @@
   }
   @import "../../styles/globalWeb.scss";
 }
+
+@media screen and (max-width: 780px) {
+  .fourthLine {
+    width: 100%;
+    flex-direction: column;
+
+    .decentralizedCloudStorageAggregator,
+    .infrastructureForBlockchainProjects {
+      width: 100%;
+    }
+  }
+}

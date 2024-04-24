@@ -1,28 +1,34 @@
-import s from "./secondLine.module.scss";
+import s from "./secondLineWeb2.module.scss";
 
-export default function SecondLine() {
+export default function SecondLineWeb2() {
   return (
-    <div className={s.secondLine}>
-      <div className={s.bloxxa}>
+    <div className={s.secondLineWeb2}>
+      <div className={s.aiBot}>
         <div className={s.text}>
           <div className={s.headerText}>
-            <h1 className={s.title}>Bloxxa</h1>
-            <p className={s.subtitle}>Конструктор веб3 приложений </p>
+            <h1 className={s.title}>ИИ БОТ</h1>
+            <p className={s.subtitle}>
+              Инновационный бот, обладающий способностью анализировать
+              содержание веб-сайтов и автоматически отбирать видеоматериалы из
+              публичных источников
+            </p>
           </div>
-          <h3 className={s.link}>bloxxa.tech</h3>
+          <h3 className={s.link}>nda</h3>
         </div>
       </div>
 
-      <div className={s.tokenize}>
+      <div className={s.vesovayaKz}>
         <div className={s.text}>
           <div className={s.headerText}>
-            <h1 className={s.title}>Tokenization Platform</h1>
+            <h1 className={s.title}>
+              ПО ДЛЯ <br /> АВТОМОБИЛЬНЫХ ВЕСОВ
+            </h1>
             <p className={s.subtitle}>
-              Платформа для токенизации реальных активов
+              Программное обеспечение для <br /> автомобильных весов
             </p>
           </div>
           <div>
-            <h3 className={s.link}>tokenize.kz</h3>
+            <h3 className={s.link}>vesovaya.kz</h3>
           </div>
         </div>
       </div>

@@ -40,3 +40,15 @@
   }
   @import "../../styles/globalWeb.scss";
 }
+
+@media screen and (max-width: 780px) {
+  .thirdLine {
+    width: 100%;
+    flex-direction: column;
+    .astanaHub,
+    .euphoriaGames,
+    .uSTAKING {
+      width: 100%;
+    }
+  }
+}

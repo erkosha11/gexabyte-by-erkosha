@@ -33,8 +33,23 @@
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 780px) {
   .leadership {
-    display: none;
+    .leadershipContent {
+      .blockIndicators {
+        flex-direction: column;
+      }
+
+      h1 {
+        font-family: Disket Mono;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 90.16px;
+        text-align: left;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
   }
 }

@@ -1,4 +1,4 @@
-import s from "./Button.module.scss";
+import s from "./MainButton.module.scss";
 
 interface ButtonProps {
   children: React.ReactNode;
@@ -6,7 +6,7 @@ interface ButtonProps {
   disabled?: boolean;
 }
 
-export const Button: React.FC<ButtonProps> = ({
+export const MainButton: React.FC<ButtonProps> = ({
   children,
   onClick,
   disabled = false,
