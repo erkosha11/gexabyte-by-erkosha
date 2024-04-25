@@ -1,0 +1,67 @@
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.partners {
+  margin: 50px 0;
+
+  .partnersContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 1280px;
+
+    .partnersLogos {
+      display: flex;
+
+      overflow: hidden;
+
+      .partnersCards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 61px;
+
+        height: 300px;
+
+        padding: 50px 0;
+
+        animation: slide 15s linear infinite;
+
+        .partnersCard {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          gap: 61px;
+          img {
+            width: 140px;
+            height: 70px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 376px) {
+
+  .partnersContent{
+    width: 325px !important;
+
+    .partnersTitle{
+      width: 325px;
+    }
+
+    .partnersLogos{
+      width: 325px;
+
+    }
+  }
+}

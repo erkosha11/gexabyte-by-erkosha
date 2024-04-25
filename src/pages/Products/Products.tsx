@@ -1,22 +1,20 @@
-import React from 'react';
+import React from "react";
 import s from "./Products.module.scss";
 import productData from "./products.json";
 
 export const Products = () => {
   return (
-    <div className={s.products}>
-      <div className="container">
-        <div className={s.productsContent}>
-          <div className={s.productsTitle}>
-            <h2>доверьтесь нам для решения ваших задач</h2>
+    <section className="Products">
+      <div className={s.products}>
+        <div className="container">
+          <div className={s.productsContent}>
+            <div className={s.productsTitle}>
+              <h2>доверьтесь нам для решения ваших задач</h2>
+            </div>
             <div className={s.productsCards}>
               {productData.products.map((product, index) => (
                 <div key={index} className={s.productsCard}>
-                  <div
-                    className={`${s.productsCardTitle} ${
-                      index % 2 === 0 ? s.productsCardPurple : ""
-                    }`}
-                  >
+                  <div className={s.productsCardTitle}>
                     <h4>{product.title}</h4>
                   </div>
                   <div className={s.productsCardText}>
@@ -33,7 +31,7 @@ export const Products = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

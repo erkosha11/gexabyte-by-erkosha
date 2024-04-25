@@ -1,6 +1,6 @@
 import { useState } from "react";
 import s from "./createProjectBlock.module.scss";
-import { MainButton } from "../../shared/ui/Button/MainButton";
+import { MainButton } from "../../shared/ui/Button/Button";
 
 export const CreateProjectBlock = () => {
   const [name, setName] = useState("");

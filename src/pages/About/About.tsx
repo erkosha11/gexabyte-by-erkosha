@@ -3,24 +3,27 @@ import AboutCards from "./components/AboutCards";
 
 export const About = () => {
   return (
-    <div className={s.about}>
-      <div className="container">
-        <div className={s.aboutContent}>
-          <AboutCards />
-          <div className={s.aboutText}>
-            <h2>Gexabyte</h2>
-            <h5>
-              аутсорсинговая IT-компания из Казахстана. Разрабатываем,
-              поддерживаем и внедряем программное обеспечение для проектов из
-              Америки, Европы и СНГ.
-            </h5>
-            <h5>
-              Реализуем локальные и масштабные задачи в действующих и новых
-              проектах, применяя современный технологический стек.
-            </h5>
+    <section className="About" id="About">
+      <div className={s.about}>
+        <div className="container">
+          <div className={s.aboutContent}>
+            <AboutCards />
+            <div className={s.aboutText}>
+              <h2>Gexabyte</h2>
+              <h5>
+                Инновационная компания-разработчик программного обеспечения,
+                находящаяся на передовой технологического прогресса.
+              </h5>
+              <h5>
+                Наш обширный опыт в реализации сложных проектов позволяет
+                клиентам моделировать их видение в высококачественные продукты,
+                воплощая передовые технологии блокчейна и современные
+                веб-разработки в каждом решении.
+              </h5>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

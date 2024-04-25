@@ -17,10 +17,7 @@
 }
 
 html {
-  scroll-behavior: initial;
-  scrollbar-width: thin;
-  scrollbar-color: #888 #f1f1f1;
-
+  scroll-behavior: smooth;
   font-family: "Disket Mono";
 
   .container {
@@ -82,5 +79,4 @@ html {
       }
     }
   }
-  
 }

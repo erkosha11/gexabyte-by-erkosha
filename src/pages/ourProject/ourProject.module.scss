@@ -12,6 +12,47 @@
     .buttonPageWeb {
       display: flex;
       gap: 30px;
+
+      .web3{
+
+        width: 168px;
+        height: 40px;
+
+        padding: 6px 8px;
+        border: 1px solid #1211271f;
+        border-radius: 8px;
+        cursor: pointer;
+        background-color: transparent;
+        color: #020210;
+        transition: background-color 0.3s, color 0.3s;
+
+        font-size: 12px;
+        font-weight: 700;
+        font-family: "Inter", sans-serif;
+      }
+      
+      .web2{
+        width: 168px;
+        height: 40px;
+
+        padding: 6px 8px;
+        border: 1px solid #1211271f;
+        border-radius: 8px;
+        cursor: pointer;
+        background-color: transparent;
+        color: #020210;
+        transition: background-color 0.3s, color 0.3s;
+
+        font-size: 12px;
+        font-weight: 700;
+        font-family: "Inter", sans-serif;
+      }
+
+      .active{
+        color: #6944cb;
+        border: 1px solid #6944cb;
+        background-color: #f7f5ff;
+      }
     }
   }
   .OurProjectContent {

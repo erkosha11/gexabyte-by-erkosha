@@ -24,8 +24,13 @@
 
         li {
           cursor: pointer;
-          h5 {
-            font-weight: normal;
+
+          a {
+            text-decoration: none;
+            color: #FFFFFF;
+            h5 {
+              font-weight: normal;
+            }
           }
         }
       }
@@ -55,7 +60,6 @@
     height: 679px;
 
     .footerContent {
-
       justify-content: space-between;
       height: 550px;
 

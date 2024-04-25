@@ -1,8 +1,8 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./router.tsx";
 import "./index.scss";
 import { ConfigProvider } from "antd";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <ConfigProvider
@@ -14,8 +14,8 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       },
     }}
   >
-    <React.StrictMode>
+    <BrowserRouter>
       <App />
-    </React.StrictMode>
+    </BrowserRouter>
   </ConfigProvider>
 );
